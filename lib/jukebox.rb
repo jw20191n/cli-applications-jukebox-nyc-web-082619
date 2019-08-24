@@ -7,18 +7,13 @@ def help
 end
 
 def play(songs)
-  n = 0
-  song_numbers = [ ]
-  
-  while n < songs.length do
-    song_numbers << n+1
-  end
-  
   puts "Please enter a song name or number:"
   answer = gets.strip
   
-  if song_names.include?(answer) 
-    puts 
+  if songs.include?(answer) 
+    puts "Playing #{answer}" 
+  elsif song_numbers
+  
   end
   
 end
