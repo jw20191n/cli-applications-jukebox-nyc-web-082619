@@ -7,6 +7,7 @@ def help
 end
 
 def play(songs)
+  s
   puts "Please enter a song name or number:"
   answer = gets.strip
   
