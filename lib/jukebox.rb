@@ -12,7 +12,7 @@ def play(songs)
   
   if songs.include?(answer) 
     puts "Playing #{answer}" 
-  elsif answer.to_i <= songs.length
+  elsif answer.to_i <= songs.length && answer.to_i !=0
     play_song = songs[answer.to_i-1]
     puts "Playing #{play_song}"
   else 
