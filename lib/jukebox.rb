@@ -32,9 +32,8 @@ def exit_jukebox
 end
 
 def run(songs) 
-  init = true
   
-  while init
+  while true
     puts "Please enter a command: "
     answer = gets.strip
     
