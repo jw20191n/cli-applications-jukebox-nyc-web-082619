@@ -11,5 +11,5 @@ def play(songs)
 end
 
 def list(songs) 
-  each_with_index
+  song.each_with_index
 end
