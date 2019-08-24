@@ -34,7 +34,7 @@ end
 def run(songs) 
   init = true
   while init
-  
+    puts "Please enter a command: "
   end 
   case run 
   end
