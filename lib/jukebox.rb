@@ -15,7 +15,7 @@ def play(songs)
   elsif answer 
   
   else 
-    puts 
+    puts "Invalid input, please try again"
   end
   
 end
