@@ -39,7 +39,11 @@ def run(songs)
     answer = gets.strip
     
     case answer 
-     when 
+      when "list"
+      when "play"
+      when "help"
+      when "exit"   
+        
     end
     
   end 
