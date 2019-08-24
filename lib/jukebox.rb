@@ -12,7 +12,7 @@ def play(songs)
   song_names = [ ]
   
   while n < songs.length do
-    song_numbers 
+    song_numbers << song[n].index
     song_names << song[n]
   end
   puts "Please enter a song name or number:"
