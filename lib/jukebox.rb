@@ -7,7 +7,14 @@ def help
 end
 
 def play(songs)
-  s
+  n = 0
+  song_numbers = [ ]
+  song_names = [ ]
+  
+  while n < songs.length do
+    song_numbers 
+    song_names << song[n]
+  end
   puts "Please enter a song name or number:"
   answer = gets.strip
   
