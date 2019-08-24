@@ -32,5 +32,5 @@ def exit_jukebox
 end
 
 def run(songs) 
-  
+  answer = gets.strip
 end
