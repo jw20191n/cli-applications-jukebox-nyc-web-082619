@@ -33,11 +33,15 @@ end
 
 def run(songs) 
   init = true
+  
   while init
     puts "Please enter a command: "
     answer = gets.strip
     
+    case answer 
+     when 
+    end
+    
   end 
-  case run 
-  end
+ 
 end
