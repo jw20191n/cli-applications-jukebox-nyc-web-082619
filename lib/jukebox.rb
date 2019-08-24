@@ -7,7 +7,7 @@ def help
 end
 
 def play(songs)
-  
+  puts ""
 end
 
 def list(songs) 
