@@ -12,7 +12,7 @@ def play(songs)
   
   if songs.include?(answer) 
     puts "Playing #{answer}" 
-  elsif answer 
+  elsif answer.to_i
   
   else 
     puts "Invalid input, please try again"
