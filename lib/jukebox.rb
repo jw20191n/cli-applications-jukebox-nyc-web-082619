@@ -6,6 +6,7 @@ def help
   puts "- exit : exits this program"
 end
 
+
 def play(songs)
   puts "Please enter a song name or number:"
   answer = gets.strip
@@ -18,8 +19,9 @@ def play(songs)
   else 
     puts "Invalid input, please try again"
   end
-  
+ 
 end
+
 
 def list(songs) 
   songs.each_with_index do | value, index |
@@ -27,9 +29,11 @@ def list(songs)
   end
 end
 
+
 def exit_jukebox
   puts "Goodbye"
 end
+
 
 def run(songs) 
   
