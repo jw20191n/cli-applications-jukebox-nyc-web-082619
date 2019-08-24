@@ -32,7 +32,10 @@ def exit_jukebox
 end
 
 def run(songs) 
+  init = true
+  while init
   
+  end 
   case run 
   end
 end
