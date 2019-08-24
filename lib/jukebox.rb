@@ -12,7 +12,7 @@ def play(songs)
   
   if songs.include?(answer) 
     puts "Playing #{answer}" 
-  elsif song_numbers
+  elsif answer 
   
   end
   
