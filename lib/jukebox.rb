@@ -40,7 +40,9 @@ def run(songs)
     
     case answer 
       when "list"
+        list(songs)
       when "play"
+        play(songs)
       when "help"
         help
       when "exit"   
