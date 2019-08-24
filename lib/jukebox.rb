@@ -14,6 +14,8 @@ def play(songs)
     puts "Playing #{answer}" 
   elsif answer 
   
+  else 
+    puts 
   end
   
 end
